@@ -133,7 +133,7 @@ def parse_title(t:str):
     
 
 movies_slv = movies_brz.select(
-    col("movieId").alias("movies_id"),
+    col("movieId").alias("movie_id"),
     upper(parse_title(col("title"))[0]).alias("title"),
     parse_title(col("title"))[1].cast("integer").alias("year"),
     split(upper("genres"),'\|').alias("genres")
