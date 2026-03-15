@@ -33,9 +33,9 @@ bronze_spark_conf = {
 
 # COMMAND ----------
 
-schema_registry_url = "https://psrc-j39np.westeurope.azure.confluent.cloud"
-schema_registry_username = "YL65MHTHKTBH3DEZ"
-schema_registry_password = "j2P1hqsAg68hoxKP4diuUl0D8ukHWoJBVmij1DjRMUWuPYIn3ziHfjPGgpTBBP+H"
+schema_registry_url = "url"
+schema_registry_username = "key"
+schema_registry_password = "password"
 
 schema_registry_conf = {'url': schema_registry_url,
                         'basic.auth.user.info' : f'{schema_registry_username}:{schema_registry_password}'}
