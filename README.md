@@ -5,9 +5,7 @@
 
 El repositorio está organizado en carpetas numeradas, en base al orden que seguiremos durante el curso.
 
-Cada una de las carpetas contiene un fichero **README.md** con los pasos y comandos
-
-El proyecto contiene mayoritariamente varios notebooks con código en varios lenguajes como scala o python
+El proyecto contiene principalmente, notebooks con código en varios lenguajes como scala o python
 
 ## Entorno
 
